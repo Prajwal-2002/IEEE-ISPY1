@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(
+    236,
+    227,
+    206
+  ); /* New aesthetic green background color */
+  color: rgb(58, 77, 57); /* New black text color */
+}
+
+.container {
+  max-width: 800px; /* Example max-width for the container */
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.link {
+  color: rgb(58, 77, 57); /* Set link text color to black */
+  text-decoration: none; /* Remove default link underline */
+}
+
+.wordle-form {
+  margin-top: 20px; /* Example margin for the form */
+}
+
+.round-input {
+  padding: 8px; /* Example padding for the input */
+  border-radius: 17px; /* Increased border radius for the input */
+  border: 1px solid #888; /* Example border for the input */
+}
+
+.btn {
+  padding: 8px 20px; /* Example padding for the button */
+  background-color: #4caf50; /* Example green color for the button */
+  color: white; /* Text color for the button */
+  border: none; /* Remove button border */
+  border-radius: 17px; /* Increased border radius for the button */
+  cursor: pointer; /* Show pointer on hover */
+}
+
+.btn:hover {
+  /* Keep the existing hover styles for the button */
+  background-color: #944012;
+  color: #f9eed3;
+}
